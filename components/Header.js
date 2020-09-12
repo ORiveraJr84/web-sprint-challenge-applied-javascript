@@ -12,6 +12,7 @@
 // and append it to the DOM inside the div.header-container
 
 function Header() {
+  // Created HTML Elements
   const headerWrapper = document.createElement("div");
   const date = document.createElement("span");
   const header = document.createElement("h1");
@@ -22,12 +23,12 @@ function Header() {
   date.classList.add("date");
   temp.classList.add("temp");
 
-  //Added Text Content
+  // Added Text Content
   date.textContent = "March 28, 2020";
   header.textContent = "Lambda Times";
   temp.textContent = "98°";
 
-  // Added HTML Structure
+  // Created HTML Structure
   headerWrapper.append(date, header, temp);
 
   return headerWrapper;
