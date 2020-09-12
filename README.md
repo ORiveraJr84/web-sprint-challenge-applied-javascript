@@ -54,8 +54,10 @@ You are expected to be able to answer questions in these areas. Your responses c
 - [✓] Clone your OWN version of the repository (Not Lambda's by mistake!)
 - [✓] Create a new branch: `git checkout -b <firstName-lastName>`.
 - [✓] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [✓] Push commits: `git push origin <firstName-lastName>`✓
-  ###✓ Launching the App✓
+- [✓] Push commits: `git push origin <firstName-lastName>`
+
+  ### Launching the App
+
 - [✓] Navigate to the root of the project with your command line
 - [✓] Run `npm install` to download the dependencies listed in the `package.json` file
 - [✓] Run `npm start` to compile the project and serve it
